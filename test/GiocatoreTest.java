@@ -1,3 +1,9 @@
+package test;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
 public class GiocatoreTest {
 	
 	Giocatore g = new Giocatore();
@@ -9,8 +15,8 @@ public class GiocatoreTest {
 	
 	@Test
 	public void testSetCfu() {
-		g.setCfu(3);
-		assertEquals(3, g.getCfu());
+		g.setCfu(5);
+		assertEquals(5, g.getCfu());
 	}
 
 	@Test
