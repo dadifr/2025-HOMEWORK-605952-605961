@@ -12,8 +12,8 @@ public class BorsaTest {
 	
 	@Before
 	public void setUp() {
-		falce = new Attrezzo("torcia", 2);
-		sega = new Attrezzo("ascia", 10);
+		torcia = new Attrezzo("torcia", 2);
+		ascia = new Attrezzo("ascia", 10);
 	}
 
 	@Test
