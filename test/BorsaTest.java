@@ -1,9 +1,12 @@
-package test;
+package it.uniroma3.diadia.giocatore;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
+import it.uniroma3.diadia.attrezzi.*;
+import it.uniroma3.diadia.*;
 public class BorsaTest {
 
 	Borsa b = new Borsa();
