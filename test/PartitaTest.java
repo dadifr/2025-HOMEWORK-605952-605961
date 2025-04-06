@@ -1,8 +1,12 @@
-package test;
+package it.uniroma3.diadia;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+
+import it.uniroma3.diadia.ambienti.*;
+import it.uniroma3.diadia.giocatore.*;
 
 public class PartitaTest() {
   Partita p = new Partita();
