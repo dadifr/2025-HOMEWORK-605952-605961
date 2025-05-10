@@ -1,7 +1,7 @@
 package it.uniroma3.diadia.giocatore;
-import static org.junit.Assert.*;
+import static org.junit.jupiter.Assert.*;
 
-import org.junit.Test;
+import org.junit.jupiter.Test;
 
 import it.uniroma3.diadia.giocatore.Giocatore;
 
