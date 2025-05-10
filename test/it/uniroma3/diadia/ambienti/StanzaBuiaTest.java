@@ -1,9 +1,9 @@
 package it.uniroma3.diadia.ambienti;
 
-import static org.junit.Assert.*;
+import static org.junit.jupiter.Assert.*;
 
-import org.junit.After;
-import org.junit.Before;
+import org.junit.jupiter.AfterEach;
+import org.junit.jupiter.BeforeEach;
 import org.junit.Test;
 
 import it.uniroma3.diadia.attrezzi.Attrezzo;
@@ -12,13 +12,13 @@ public class StanzaBuiaTest {
 
 	private StanzaBuia stanza;
 	private Attrezzo lumino;
-	@Before
+	@BeforeEach
 	public void setUp() throws Exception {
 		stanza = new StanzaBuia("StanzaBuia", "lumino");
 		lumino = new Attrezzo("lumino", 1);
 	}
 
-	@After
+	@AfterEach
 	public void tearDown() throws Exception {
 	}
 
