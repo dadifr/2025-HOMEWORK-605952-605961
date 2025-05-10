@@ -11,7 +11,7 @@ public class BorsaTest {
 	Attrezzo torcia;
 	Attrezzo ascia;
 	
-	@Before
+	@BeforeEach
 	public void setUp() {
 		torcia = new Attrezzo("torcia", 2);
 		ascia = new Attrezzo("ascia", 10);
