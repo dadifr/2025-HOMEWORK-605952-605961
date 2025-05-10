@@ -1,11 +1,11 @@
 package it.uniroma3.diadia.comandi;
 
-import static org.junit.Assert.assertFalse;
-import static org.junit.Assert.assertTrue;
+import static org.junit.jupiter.Assert.assertFalse;
+import static org.junit.jupiter.Assert.assertTrue;
 
-import org.junit.After;
-import org.junit.Before;
-import org.junit.Test;
+import org.junit.jupiter.AfterEach;
+import org.junit.jupiter.BeforeEach;
+import org.junit.jupiter.Test;
 
 import it.uniroma3.diadia.IOConsole;
 import it.uniroma3.diadia.IO;
@@ -21,7 +21,7 @@ public class ComandoPrendiTest {
 	private Comando comando;
 	private IO io;
 	
-	@Before
+	@BeforeEach
 	public void setUp() throws Exception {
 		partita = new Partita();
 		attrezzo = new Attrezzo("martello", 2);
@@ -33,7 +33,7 @@ public class ComandoPrendiTest {
 	}
 
 
-	@After
+	@AfterEach
 	public void tearDown() throws Exception {
 	}
 	
