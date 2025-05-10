@@ -1,10 +1,10 @@
 package it.uniroma3.diadia.giocatore;
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertFalse;
-import static org.junit.Assert.assertTrue;
+import static org.junit.jupiter.Assert.assertEquals;
+import static org.junit.jupiter.Assert.assertFalse;
+import static org.junit.jupiter.Assert.assertTrue;
 
-import org.junit.Before;
-import org.junit.Test;
+import org.junit.jupiter.BeforeEach;
+import org.junit.jupiter.Test;
 
 import it.uniroma3.diadia.attrezzi.Attrezzo;
 import it.uniroma3.diadia.giocatore.Borsa;
@@ -15,7 +15,7 @@ public class BorsaTest {
 	Attrezzo falce;
 	Attrezzo sega;
 	
-	@Before
+	@BeforeEach
 	public void setUp() {
 		falce = new Attrezzo("falce", 2);
 		sega = new Attrezzo("sega", 16);
