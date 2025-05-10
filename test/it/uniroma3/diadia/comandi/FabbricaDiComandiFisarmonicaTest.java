@@ -1,10 +1,10 @@
 package it.uniroma3.diadia.comandi;
 
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.Assert.assertEquals;
 
-import org.junit.After;
-import org.junit.Before;
-import org.junit.Test;
+import org.junit.jupiter.AfterEach;
+import org.junit.jupiter.BeforeEach;
+import org.junit.jupiter.Test;
 
 import it.uniroma3.diadia.IOConsole;
 import it.uniroma3.diadia.IO;
@@ -15,13 +15,13 @@ public class FabbricaDiComandiFisarmonicaTest {
 	private IO io;
 	private Comando expected;
 	
-	@Before
+	@BeforeEach
 	public void setUp() throws Exception {
 		io = new IOConsole();
 		fabbrica = new FabbricaDiComandiFisarmonica(io);
 	}
 
-	@After
+	@AfterEach
 	public void tearDown() throws Exception {
 	}
 
