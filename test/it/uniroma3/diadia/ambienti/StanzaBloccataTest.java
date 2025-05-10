@@ -1,10 +1,10 @@
 package it.uniroma3.diadia.ambienti;
 
-import static org.junit.Assert.*;
+import static org.junit.jupiter.Assert.*;
 
-import org.junit.After;
-import org.junit.Before;
-import org.junit.Test;
+import org.junit.jupiter.After;
+import org.junit.jupiter.Before;
+import org.junit.jupiter.Test;
 
 import it.uniroma3.diadia.attrezzi.Attrezzo;
 
@@ -14,7 +14,7 @@ public class StanzaBloccataTest {
 	private Stanza s;
 	private Attrezzo a;
 	
-	@Before
+	@BeforeEach
 	public void setUp() throws Exception {
 		sb = new StanzaBloccata("StanzaBloccata", "ovest", "grimaldello");
 		s = new Stanza("Stanzetta");
@@ -23,7 +23,7 @@ public class StanzaBloccataTest {
 		
 	}
 
-	@After
+	@AfterEach
 	public void tearDown() throws Exception {
 	}
 
