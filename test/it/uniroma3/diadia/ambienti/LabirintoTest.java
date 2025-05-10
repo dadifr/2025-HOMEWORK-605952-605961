@@ -2,7 +2,7 @@ package it.uniroma3.diadia.ambienti;
 import static org.junit.jupiter.Assert.assertEquals;
 import static org.junit.jupiter.Assert.fail;
 
-import org.junit.jupiter.Before;
+import org.junit.jupiter.BeforeEach;
 import org.junit.jupiter.Test;
 
 import it.uniroma3.diadia.ambienti.Labirinto;
