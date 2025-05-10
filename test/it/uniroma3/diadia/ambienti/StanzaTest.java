@@ -1,9 +1,9 @@
 package it.uniroma3.diadia.ambienti;
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertNull;
-import static org.junit.Assert.assertTrue;
+import static org.junit.jupiter.Assert.assertEquals;
+import static org.junit.jupiter.Assert.assertNull;
+import static org.junit.jupiter.Assert.assertTrue;
 
-import org.junit.Test;
+import org.junit.jupiter.Test;
 
 import it.uniroma3.diadia.ambienti.Stanza;
 import it.uniroma3.diadia.attrezzi.Attrezzo;
