@@ -1,9 +1,9 @@
 package it.uniroma3.diadia.ambienti;
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.fail;
+import static org.junit.jupiter.Assert.assertEquals;
+import static org.junit.jupiter.Assert.fail;
 
-import org.junit.Before;
-import org.junit.Test;
+import org.junit.jupiter.Before;
+import org.junit.jupiter.Test;
 
 import it.uniroma3.diadia.ambienti.Labirinto;
 import it.uniroma3.diadia.ambienti.Stanza;
@@ -13,7 +13,7 @@ public class LabirintoTest {
 	Stanza biblioteca;
 	Stanza DS1;
 
-	@Before
+	@BeforeEach
 	public void setUp() {
 		l = new Labirinto();
 		l.creaStanze();
